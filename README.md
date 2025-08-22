@@ -1,3 +1,7 @@
+<img width="1186" height="731" alt="af drawio" src="https://github.com/user-attachments/assets/99948bdc-39b9-483d-a976-bb3c7cd19279" />
+
+
+
 # Yahoo Finance → S3 → Snowflake with Metabase notify (Airflow)
 
 This README describes an Airflow DAG that downloads AAPL price history from Yahoo Finance, writes a CSV to S3, loads it into Snowflake, then notifies Metabase to rescan the table so dashboards pick up fresh data.
